@@ -27,7 +27,7 @@ xmlforall.parse('file.xml', function (err, doc) {
 # Example
 ```js
 var xmlforall = require('xmlforall');
-xmlforall.parse('file.xml', function (err, doc) {
+xmlforall.parse('menu.xml', function (err, doc) {
     var item = doc.getElementById('1'),
         allItems = doc.getElementsByTagName('food'),
         price = item.getElementsByTagName('price')[0],
@@ -39,7 +39,7 @@ xmlforall.parse('file.xml', function (err, doc) {
 });
 ```
 
-# breakfast_menu.xml
+# menu.xml
 
 ```xml
 <!-- https://www.w3schools.com/xml/ -->
