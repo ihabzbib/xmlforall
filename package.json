@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/test.js test/breakfast_menu.xml"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
