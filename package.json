@@ -1,0 +1,31 @@
+{
+  "name": "xmlforall",
+  "version": "1.0.0",
+  "description": "Simple and fast Nodejs XML parser using SAX as the only dependency.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js test/breakfast_menu.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingvillage/xmlforall.git"
+  },
+  "keywords": [
+    "XML",
+    "Fast",
+    "Nodejs",
+    "SAX"
+  ],
+  "author": "Ihab Zbib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingvillage/xmlforall/issues"
+  },
+  "homepage": "https://github.com/codingvillage/xmlforall#readme",
+  "dependencies": {
+    "sax": "^1.2.2"
+  }
+}
