@@ -1,6 +1,6 @@
 {
   "name": "xmlforall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple and fast Nodejs XML parser using SAX as the only dependency.",
   "main": "index.js",
   "directories": {
