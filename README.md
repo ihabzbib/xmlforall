@@ -1,7 +1,7 @@
 # xmlforall
 Simple, fast and reliable Nodejs XML parser.
 ```js
-var xmlforall = require('../lib/parser');
+var xmlforall = require('xmlforall');
 xmlforall.parse('file.xml', function (err, doc) {
 });
 ```
@@ -98,9 +98,12 @@ $ npm install xmlforall --save
 - Asynchronous 
 - Only dependency is SAX
 
-## Run The Test
+## Test
 ```bash
+cd node_modules/xmlforall/
 node test/test.js
+OR
+npm test
 ```
 
 ## License
