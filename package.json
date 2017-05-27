@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingvillage/xmlforall.git"
+    "url": "git+https://github.com/ihabzbib/xmlforall.git"
   },
   "keywords": [
     "XML",
@@ -22,9 +22,9 @@
   "author": "Ihab Zbib",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codingvillage/xmlforall/issues"
+    "url": "https://github.com/ihabzbib/xmlforall/issues"
   },
-  "homepage": "https://github.com/codingvillage/xmlforall#readme",
+  "homepage": "https://github.com/ihabzbib/xmlforall#readme",
   "dependencies": {
     "sax": "^1.2.2"
   }
