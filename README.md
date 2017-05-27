@@ -6,7 +6,7 @@ xmlforall.parse('file.xml', function (err, doc) {
 });
 ```
 
-## Element
+# Element
     Object returned by the parse function.
 # Methods
 ### getElementsByTagName(tagName)
@@ -15,12 +15,13 @@ xmlforall.parse('file.xml', function (err, doc) {
     Returns the first matching Element with that id.
 ### getAttribute(attr)
     Returns a string attribute attr
-## Properties
-- ### tagName
+
+# Properties
+### tagName
     Tag name of the element.
-- ### text
+### text
     The text value of the element.
-- ### attributes
+### attributes
     A string array of all the element attributes.
 
 
