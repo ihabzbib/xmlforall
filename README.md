@@ -39,6 +39,7 @@ xmlforall.parse('menu.xml', function (err, doc) {
     console.log('Currency of item 1:', currency);
 });
 ```
+#
 
 ```js
 var xmlforall = require('xmlforall');
