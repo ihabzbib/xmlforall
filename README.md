@@ -25,12 +25,12 @@ xmlforall.parse('file.xml', function (err, doc) {
     A string array of all the element attributes.
 
 
-# Example
+# Examples
 ```js
 var xmlforall = require('xmlforall');
 xmlforall.parse('menu.xml', function (err, doc) {
-    var item = doc.getElementById('1'),
-        allItems = doc.getElementsByTagName('food'),
+    var allItems = doc.getElementsByTagName('food'),
+        item = doc.getElementById('1'),
         price = item.getElementsByTagName('price')[0],
         currency = price.getAttribute('currency');
         
@@ -40,6 +40,24 @@ xmlforall.parse('menu.xml', function (err, doc) {
 });
 ```
 
+```js
+var xmlforall = require('xmlforall');
+xmlforall.parse('menu.xml', function (err, doc) {
+    var i, element, name, price;
+
+    for (i = 0; i < 5; i++) {
+        element = doc.getElementById(i.toString());
+        name = element.getElementsByTagName('name')[0];
+        price = element.getElementsByTagName('price')[0];
+
+        console.log(
+            name.text + ':',
+            price.text,
+            '(' + price.getAttribute('currency') + ')'
+        );
+    }
+});
+```
 # menu.xml
 
 ```xml
